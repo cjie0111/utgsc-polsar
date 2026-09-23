@@ -1,0 +1,11 @@
+method,oa_mean,oa_std,d_oa_mean,ncm_mean,zero_ncm_cells,oa_wins_vs_sup,kappa_available
+Supervised,89.707,4.732,0.0,0.0,12,0,True
+Soft-PL (candidate),91.244,3.861,1.537,14.633,0,8,False
+Random,92.165,3.364,2.458,12.732,0,9,True
+Entropy,93.239,2.597,3.532,8.25,0,12,True
+Entropy+Diversity,93.866,2.469,4.159,7.208,0,11,True
+TOD-Acq-CV,92.078,3.151,2.37,18.247,0,11,True
+MSSAL-PM-CV,91.677,3.604,1.97,23.651,0,11,True
+UTG-SC,93.158,2.946,3.451,0.0,12,12,True
+UTG-SC + Pair,93.448,2.831,3.741,0.0,12,12,False
+[abl] generic region,92.906,3.102,3.199,0.229,8,12,True

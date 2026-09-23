@@ -1,0 +1,21 @@
+method,dataset,ncm_mean,nncm_mean,harmed_fraction_mean,max_drop_max,zero_ncm_cells,cells,d_oa_mean,d_oa_worst
+Supervised,gf3,0.0,0.0,0.0,0.0,6,6,0.0,0.0
+Supervised,flevoland,0.0,0.0,0.0,0.0,6,6,0.0,0.0
+Soft-PL (candidate),gf3,13.417,2.2361,0.4444,24.0,0,6,-0.438,-3.25
+Soft-PL (candidate),flevoland,15.85,1.0567,0.2445,21.5,0,6,3.512,0.421
+Random,gf3,10.208,1.7014,0.3611,13.75,0,6,0.34,-1.208
+Random,flevoland,15.255,1.017,0.2666,19.75,0,6,4.575,0.986
+Entropy,gf3,5.25,0.875,0.2778,15.0,0,6,2.84,1.417
+Entropy,flevoland,11.249,0.75,0.2333,11.75,0,6,4.224,1.045
+Entropy+Diversity,gf3,8.75,1.4584,0.3333,12.75,0,6,2.465,0.0
+Entropy+Diversity,flevoland,5.667,0.3778,0.1889,9.0,0,6,5.853,1.298
+TOD-Acq-CV,gf3,5.542,0.9236,0.25,7.0,0,6,1.917,0.208
+TOD-Acq-CV,flevoland,30.952,2.0635,0.2667,50.5,0,6,2.824,-0.775
+MSSAL-PM-CV,gf3,7.833,1.3055,0.3333,13.25,0,6,2.187,0.167
+MSSAL-PM-CV,flevoland,39.468,2.6312,0.4111,24.0,0,6,1.752,-2.516
+UTG-SC,gf3,0.0,0.0,0.0,0.0,6,6,2.396,1.208
+UTG-SC,flevoland,0.0,0.0,0.0,0.0,6,6,4.506,1.939
+UTG-SC + Pair,gf3,0.0,0.0,0.0,0.0,6,6,2.611,1.292
+UTG-SC + Pair,flevoland,0.0,0.0,0.0,0.0,6,6,4.87,2.057
+[abl] generic region,gf3,0.25,0.0417,0.0556,0.75,4,6,1.979,1.042
+[abl] generic region,flevoland,0.208,0.0139,0.0222,1.0,4,6,4.418,1.837
